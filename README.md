@@ -2,6 +2,10 @@
 This repository is setup to showcase content for the purposes of demos, workshops, and hackathons.
 This repo is intended to hold the contents of both Microsoft tooling as well as open source tooling.
 
+## [GitHub How-TO](https://github.com/Azure/azure-ocp-samples/tree/Microsoft_Tools)
+Use the following guides to get started on GitHub and start contributing.
+ *  [Get-Started](https://github.com/Azure/azure-ocp-samples/tree/Microsoft_Tools)
+
 To achieve this, there are two branches, one for [Microsoft Tooling](https://github.com/Azure/azure-ocp-samples/tree/Microsoft_Tools) and one for [Open Source Tooling](https://github.com/Azure/azure-ocp-samples/tree/OSS).
 ## [Microsoft Tools and Technology](https://github.com/Azure/azure-ocp-samples/tree/Microsoft_Tools)
 Please clone the Microsoft_Tools branch locally by running the following command.

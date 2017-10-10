@@ -13,10 +13,13 @@ In this section the following GitHub scenarios are going to be discussed.
     *  Staging
     *  Committing
     *  Pushing to forked repo
-* [Creating a pull request](#creating-a-pull-request)
+* [Open a Pull Request](#open-a-pull-request)
+
+#   GitHub Flow
+![GitHub Flow](https://raw.githubusercontent.com/alihhussain/azure-ocp-samples/master/GitHub/Github_Flow.jpg)
 
 ## Setting up Git Local Environment with SSH
 ## Forking a Repository
 ## Cloning A Repository
 ## Your Modifications
-## Creating a Pull Request
+## Open a Pull Request

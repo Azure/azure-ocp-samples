@@ -1,5 +1,5 @@
 # Purpose
-In this section the following GitHub scenarios are going to be discussed.
+In this section the following GitHub scenarios are going to be detailed.
 * [Setting up Git Environment with SSH](#setting-up-git-local-environment-with-ssh)
 * [Cloning a Repository](#cloning-a-repository)
     *  Changing branches

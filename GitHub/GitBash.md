@@ -6,7 +6,7 @@ Download the Windows GitBash installer from **[link](https://git-scm.com/downloa
 
 ### Run the Installer
 Run the downloaded installer
-![Installer](./src/gitbash_screen12.JPG width=100))
+![Installer](./src/gitbash_screen12.JPG))
 
 ### Step by Step Installer Instructions
 

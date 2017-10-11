@@ -1,12 +1,6 @@
 # Purpose
-<<<<<<< HEAD
-In this section the following GitHub scenarios are going to be discussed.
-* [Installing Git](#installing-git)
-*   [Setting up Git Environment with SSH](#setting-up-git-local-environment-with-ssh)
-=======
 In this section the following GitHub scenarios are going to be detailed.
 * [Setting up Git Environment with SSH](#setting-up-git-local-environment-with-ssh)
->>>>>>> 9d77504884d253faf69e57fb365068e3eb5b8141
 * [Cloning a Repository](#cloning-a-repository)
     *  Changing branches
     *  Check Status

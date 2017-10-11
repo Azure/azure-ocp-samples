@@ -22,7 +22,7 @@ In this section the following GitHub scenarios are going to be detailed.
 ##  Installing *Git* on Windows
 
 *   **Download** *Git* from [Git for Windows - GUI](https://desktop.github.com/) and **install it**.
-* **Download** *Git* from [Git for Windows - GitBash](https://git-scm.com/download/win) and **install it**. 
+* [Git for Windows - GitBash](./GitBash.md) 
 
 ## Installing *Git* on a *Mac*
 ### Step 1 – Install [*Homebrew*](http://brew.sh/)

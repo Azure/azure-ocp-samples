@@ -4,8 +4,8 @@ This example is designed to showcase creating a Virtual Network (with 3 Subnets)
 
 # Prerequisites
 
-* [https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest](Azure CLI)
-* [https://github.com/Azure/acs-engine/](ACS Engine)
+* [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+* [ACS Engine](https://github.com/Azure/acs-engine/)
 
 ## Steps
 

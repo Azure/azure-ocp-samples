@@ -13,27 +13,27 @@ These steps showcase an example walkthrough.  Additional steps might be required
 
 Create the Resource Group and deploy the Network ARM template into it
 
-_In this case, I use the RG name:_ `sandbox-acs-engine-hybrid`
+_In this case, I use the RG name:_ `acs-engine-vnet-agents`
 
 ```
 # Create the RG
-az group create -n sandbox-acs-engine-hybrid -l southcentralus
+az group create -n acs-engine-vnet-agents -l southcentralus
 
 # Deploy the network.json ARM template.  Some customization might be necessary
-az group deployment create -g sandbox-acs-engine-hybrid --template-file network.json
+az group deployment create -g acs-engine-vnet-agents --template-file network.json
 
 # Verify the subnets exist
-az network vnet subnet list -g sandbox-acs-engine-hybrid  --vnet-name acs-engine-hybrid-vnet
+az network vnet subnet list -g acs-engine-vnet-agents  --vnet-name acs-engine-hybrid-vnet
 ```
 
 * Deploy K8S using ACS-engine into the RG
 
 ```
 # Edit kubernetes-hybrid.json to fill out the templates
-acs-engine deploy --api-model kubernetes-hybrid.json --subscription-id <SUBSCRIPTION_ID> --location southcentralus --resource-group sandbox-acs-engine-hybrid
+acs-engine deploy --api-model kubernetes-hybrid.json --subscription-id <SUBSCRIPTION_ID> --location southcentralus --resource-group acs-engine-vnet-agents
 
 # Get the IP address of the K8S Master
-K8S_MASTER=$(az network public-ip list -g sandbox-acs-engine-hybrid | jq '.[0].ipAddress' -r)
+K8S_MASTER=$(az network public-ip list -g acs-engine-vnet-agents | jq '.[0].ipAddress' -r)
 
 # Log into the master
 ssh $K8S_MASTER

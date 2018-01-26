@@ -1,0 +1,56 @@
+{
+  "apiVersion": "vlabs",
+  "properties": {
+    "orchestratorProfile": {
+      "orchestratorType": "Kubernetes",
+      "orchestratorRelease": "1.8"
+    },
+    "masterProfile": {
+      "count": 1,
+      "dnsPrefix": "<DNS PREFIX>",
+      "vmSize": "Standard_A2_v2",
+      "vnetSubnetId": "/subscriptions/<SUB_ID>/resourceGroups/<NETWORK_RG>/providers/Microsoft.Network/virtualNetworks/<VNET_NAME>/subnets/<SUBNET_NAME>",
+      "storageProfile" : "ManagedDisks",
+      "firstConsecutiveStaticIP": "10.0.1.4",
+      "vnetCidr": "10.0.0.0/16"
+    },
+    "agentPoolProfiles": [
+      {
+        "name": "agentpool1",
+        "count": 1,
+        "vmSize": "Standard_D2_v2",
+        "vnetSubnetId": "/subscriptions/<SUB_ID>/resourceGroups/<NETWORK_RG>/providers/Microsoft.Network/virtualNetworks/<VNET_NAME>/subnets/<SUBNET_NAME>",
+        "storageProfile" : "ManagedDisks",
+        "availabilityProfile": "AvailabilitySet",
+        "customNodeLabels": {
+          "services": "frontend"
+        }
+      },
+      {
+        "name": "agentpool2",
+        "count": 1,
+        "vmSize": "Standard_D2_v2",
+        "vnetSubnetId": "/subscriptions/<SUB_ID>/resourceGroups/<NETWORK_RG>/providers/Microsoft.Network/virtualNetworks/<VNET_NAME>/subnets/<SUBNET_NAME>",
+        "storageProfile" : "ManagedDisks",
+        "availabilityProfile": "AvailabilitySet",
+        "customNodeLabels": {
+          "services": "backend"
+        }
+      }
+    ],
+    "linuxProfile": {
+      "adminUsername": "admin",
+      "ssh": {
+        "publicKeys": [
+          {
+            "keyData": "<SSH PUBLIC KEY>"
+          }
+        ]
+      }
+    },
+    "servicePrincipalProfile": {
+      "clientId": "<CLIENT_ID>",
+      "secret": "<CLIENT_SECRET>"
+    }
+  }
+}

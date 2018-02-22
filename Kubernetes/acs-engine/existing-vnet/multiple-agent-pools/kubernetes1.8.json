@@ -11,7 +11,7 @@
       "vmSize": "Standard_A2_v2",
       "vnetSubnetId": "/subscriptions/SUBSCRIPTION_ID/resourceGroups/NETWORK_RESOURCE_GROUP/providers/Microsoft.Network/virtualNetworks/VNET_NAME/subnets/MGMT_SUBNET_NAME",
       "storageProfile" : "ManagedDisks",
-      "firstConsecutiveStaticIP": "10.0.1.4",
+      "firstConsecutiveStaticIP": "10.1.0.10",
       "vnetCidr": "VNET_CIDR"
     },
     "agentPoolProfiles": [
@@ -39,7 +39,7 @@
       }
     ],
     "linuxProfile": {
-      "adminUsername": "admin",
+      "adminUsername": "ADMIN_USERNAME",
       "ssh": {
         "publicKeys": [
           {

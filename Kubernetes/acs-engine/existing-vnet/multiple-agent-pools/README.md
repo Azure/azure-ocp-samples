@@ -34,14 +34,15 @@ az network vnet subnet create -g $RESOURCE_GROUP --vnet-name $VNET_NAME -n pool2
 az network vnet subnet list -g $RESOURCE_GROUP --vnet-name $VNET_NAME -o tsv
 ```
 
-* Deploy K8S using ACS-engine into the RG
+* Edit the kubernetes json file to meet your requirements
 
 ```
 # Edit kubernetes-hybrid.json to fill out the templates
 acs-engine deploy --api-model $API_MODEL --subscription-id $SUBSCRIPTION_ID --location $LOCATION --resource-group $RESOURCE_GROUP
 
 # Get the IP address of the K8S Master
-K8S_MASTER=$(az network public-ip list -g acs-engine-vnet-agents | jq '.[0].ipAddress' -r)
+K8S_MASTER=$(az network public-ip list -g $RESOURCE_GROUP | jq '.[0].ipAddress' -r)
+echo $K8S_MASTER
 
 # Log into the master
 ssh $K8S_MASTER

@@ -3,11 +3,11 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "defaultValue": "westus",
+            "defaultValue": "southcentralus",
             "type": "String"
         },
         "virtualNetworks_Demo_Network_name": {
-            "defaultValue": "acs-engine-vnet-agents-vnet",
+            "defaultValue": "acs-engine-hybrid-vnet",
             "type": "String"
         },
         "subnets_mgmt_name": {
@@ -15,11 +15,11 @@
             "type": "String"
         },
         "subnets_pool1_name": {
-            "defaultValue": "pool1",
+            "defaultValue": "linux",
             "type": "String"
         },
         "subnets_pool2_name": {
-            "defaultValue": "pool2",
+            "defaultValue": "windows",
             "type": "String"
         }
     },
@@ -39,19 +39,19 @@
                 },
                 "subnets": [
                     {
-                        "name": "mgmt",
+                        "name": "[parameters('subnets_mgmt_name')]",
                         "properties": {
                             "addressPrefix": "10.0.1.0/24"
                         }
                     },
                     {
-                        "name": "pool1",
+                        "name": "[parameters('subnets_pool1_name')]",
                         "properties": {
                             "addressPrefix": "10.0.2.0/24"
                         }
                     },
                     {
-                        "name": "pool2",
+                        "name": "[parameters('subnets_pool2_name')]",
                         "properties": {
                             "addressPrefix": "10.0.3.0/24"
                         }

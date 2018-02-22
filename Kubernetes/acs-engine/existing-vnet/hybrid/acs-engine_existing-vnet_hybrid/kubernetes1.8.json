@@ -7,19 +7,19 @@
     },
     "masterProfile": {
       "count": 1,
-      "dnsPrefix": "DNS_PREFIX",
+      "dnsPrefix": "<DNS PREFIX>",
       "vmSize": "Standard_A2_v2",
-      "vnetSubnetId": "/subscriptions/SUBSCRIPTION_ID/resourceGroups/NETWORK_RESOURCE_GROUP/providers/Microsoft.Network/virtualNetworks/VNET_NAME/subnets/MGMT_SUBNET_NAME",
+      "vnetSubnetId": "/subscriptions/<SUB_ID>/resourceGroups/<NETWORK_RG>/providers/Microsoft.Network/virtualNetworks/<VNET_NAME>/subnets/<SUBNET_NAME>",
       "storageProfile" : "ManagedDisks",
       "firstConsecutiveStaticIP": "10.0.1.4",
-      "vnetCidr": "VNET_CIDR"
+      "vnetCidr": "10.0.0.0/16"
     },
     "agentPoolProfiles": [
       {
         "name": "agentpool1",
         "count": 1,
         "vmSize": "Standard_D2_v2",
-        "vnetSubnetId": "/subscriptions/SUBSCRIPTION_ID/resourceGroups/NETWORK_RESOURCE_GROUP/providers/Microsoft.Network/virtualNetworks/VNET_NAME/subnets/POOL1_SUBNET_NAME",
+        "vnetSubnetId": "/subscriptions/<SUB_ID>/resourceGroups/<NETWORK_RG>/providers/Microsoft.Network/virtualNetworks/<VNET_NAME>/subnets/<SUBNET_NAME>",
         "storageProfile" : "ManagedDisks",
         "availabilityProfile": "AvailabilitySet",
         "customNodeLabels": {
@@ -30,7 +30,7 @@
         "name": "agentpool2",
         "count": 1,
         "vmSize": "Standard_D2_v2",
-        "vnetSubnetId": "/subscriptions/SUBSCRIPTION_ID/resourceGroups/NETWORK_RESOURCE_GROUP/providers/Microsoft.Network/virtualNetworks/VNET_NAME/subnets/POOL2_SUBNET_NAME",
+        "vnetSubnetId": "/subscriptions/<SUB_ID>/resourceGroups/<NETWORK_RG>/providers/Microsoft.Network/virtualNetworks/<VNET_NAME>/subnets/<SUBNET_NAME>",
         "storageProfile" : "ManagedDisks",
         "availabilityProfile": "AvailabilitySet",
         "customNodeLabels": {
@@ -43,14 +43,14 @@
       "ssh": {
         "publicKeys": [
           {
-            "keyData": "SSH_PUBLIC_KEY"
+            "keyData": "<SSH PUBLIC KEY>"
           }
         ]
       }
     },
     "servicePrincipalProfile": {
-      "clientId": "CLIENT_ID",
-      "secret": "CLIENT_SECRET"
+      "clientId": "<CLIENT_ID>",
+      "secret": "<CLIENT_SECRET>"
     }
   }
 }

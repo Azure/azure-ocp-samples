@@ -20,7 +20,7 @@ export SUBSCRIPTION_ID=
 export CLIENT_ID=
 export CLIENT_SECRET=
 
-export BASE_NAME=${BASE_NAME:=acs-engine-multi-pool-3}
+export BASE_NAME=${BASE_NAME:=acs-engine-multi-pool}
 export RESOURCE_GROUP=${RESOURCE_GROUP:=$BASE_NAME-rg}
 export VNET_NAME=${VNET_NAME:=$BASE_NAME-vnet}
 export VNET_CIDR=${VNET_CIDR:=10.0.0.0/8}

@@ -33,6 +33,7 @@ export MGMT_SUBNET_NAME=${MGMT_SUBNET_NAME:=mgmt}
 export POOL1_SUBNET_NAME=${POOL1_SUBNET_NAME:=pool1}
 export POOL2_SUBNET_NAME=${POOL2_SUBNET_NAME:=pool2}
 export SSH_PUBLIC_KEY=${SSH_PUBLIC_KEY:=$(cat ~/.ssh/id_rsa.pub)}
+export FIRST_CONSECUTIVE_STATIC_IP=${FIRST_CONSECUTIVE_STATIC_IP:=10.1.0.8}
 
 # Create the RG
 az group create -n $RESOURCE_GROUP -l $LOCATION
@@ -64,6 +65,7 @@ sed -i '' "s:SSH_PUBLIC_KEY:$SSH_PUBLIC_KEY:g" $DEST_API_MODEL
 sed -i '' "s/CLIENT_ID/$CLIENT_ID/g" $DEST_API_MODEL
 sed -i '' "s/CLIENT_SECRET/$CLIENT_SECRET/g" $DEST_API_MODEL
 sed -i '' "s/ADMIN_USERNAME/$USER/g" $DEST_API_MODEL
+sed -i '' "s/FIRST_CONSECUTIVE_STATIC_IP/$FIRST_CONSECUTIVE_STATIC_IP/g" $DEST_API_MODEL
 
 # Edit kubernetes-hybrid.json to fill out the templates
 acs-engine deploy --api-model $DEST_API_MODEL --subscription-id $SUBSCRIPTION_ID --location $LOCATION --resource-group $RESOURCE_GROUP

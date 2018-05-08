@@ -1,0 +1,24 @@
+az group create -n pvPackageImage -l WestUS
+{
+  "id": "/subscriptions/bfdf020c-c500-4b4a-8065-1e04a5dc8fd6/resourceGroups/pvPackageImage",
+  "location": "westus",
+  "managedBy": null,
+  "name": "pvPackageImage",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": null
+}
+~/Projects/azure/Automation/Terraform$ az ad sp create-for-rbac --query "{ client_id: appId, client_secret: password, tenant_id: tenant }"
+Retrying role assignment creation: 1/36
+Retrying role assignment creation: 2/36
+Retrying role assignment creation: 3/36
+{
+  "client_id": "2caa94ba-ca1f-47bd-896d-c3774534d715",
+  "client_secret": "3e489c2c-2a4e-41a8-91cd-0e2ba6650610",
+  "tenant_id": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+}
+~/Projects/azure/Automation/Terraform$ az account show --query "{ subscription_id: id }"
+{
+  "subscription_id": "bfdf020c-c500-4b4a-8065-1e04a5dc8fd6"
+}

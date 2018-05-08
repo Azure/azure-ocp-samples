@@ -1,0 +1,59 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vnetName": {
+            "type": "string",
+            "defaultValue": "P20VNet",
+            "metadata": {
+                "description": "VNet Name"
+            }
+        },
+        "subnetName": {
+            "type": "string",
+            "defaultValue": "Default",
+            "metadata": {
+                "description": "Subnet Name"
+            }
+        },
+        "NsgName": {
+            "type": "string",
+            "defaultValue": "defaultNsg",
+            "metadata": {
+                "description": "The name of the Network Security Group"
+            }
+        }
+    },
+    "variables": {
+        "publicIPAddressName": "PublicIP",
+        "nicName": "WebVMNic"
+    },
+    "resources": [
+        {
+            "apiVersion": "2017-10-01",
+            "type": "Microsoft.Network/networkInterfaces",
+            "name": "[variables('nicName')]",
+            "location": "[resourceGroup().location]",
+            "properties": {
+                "ipConfigurations": [
+                    {
+                        "name": "ipconfig1",
+                        "properties": {
+                            "privateIPAllocationMethod": "Dynamic",
+                            "publicIPAddress": {
+                                "id": "[resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPAddressName'))]"
+                            },
+                            "subnet": {
+                                "id": "[concat(resourceId('Microsoft.Network/virtualNetworks',parameters('vnetName')),'/subnets/',parameters('subnetName'))]"
+                            }
+                        }
+                    }
+                ],
+                "networkSecurityGroup": {
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('NsgName'))]"
+                }
+            }
+        }
+    ],
+    "outputs": {}
+}

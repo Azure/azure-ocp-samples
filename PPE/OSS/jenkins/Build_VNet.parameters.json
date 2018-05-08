@@ -1,0 +1,21 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vnetName": {
+            "value": "{Your_Vnet_Name}"
+        },
+        "vnetPrefix": {
+            "value": "{Your_VNet_CIDR}"
+        },
+        "subnetName": {
+            "value": "{Your_Subnet_Name}"
+        },
+        "subnetPrefix": {
+            "value": "{Your_Subnet_CIDR}"
+        },
+        "NsgName": {
+            "value": "{Your_NSG_Name}"
+        }
+    }
+}

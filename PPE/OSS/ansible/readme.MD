@@ -85,10 +85,9 @@ ansible-playbook LinuxVMCreate.yml
 
 ## Configuring a Web Application using Ansible 
 
+To Install Apache web server and configure a website, create the playbook  named "InstallApache.yml" and run the playbook as follows:
+
 ansible-playbook InstallApache.yml
-
-
-
 
 ## References
 

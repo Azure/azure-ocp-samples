@@ -90,25 +90,7 @@ ansible-playbook LinuxVMCreate.yml
 
  python ./ansible/contrib/inventory/azure_rm.py --list | jq
 
- Now we test the reachability using ansible function called "ping"
-
- python ./ansible/contrib/inventory/azure_rm.py --list | jq
-
-Note: The first time you run the command you will have to acknowledge the host's authenticity, after that it should run automatically
-
-Now, let's run a command inside all VMs in the resource group. In order to test this, create another VM in the resource group.
-
-The following command run unmae on all machines in the resource group
-
-## Ansible Dynamic Inventory on Azure
-
- Dynamic inventories help discover the machines that fulfill certain requirements such as existing in Azure, or belonging to a certain resource group, and makes Ansible execute operations on them.
-
- First, we will test that the dynamic inventory script is running, executing it with the parameter “--list”. This should show JSON text containing information about all the VMs in your resource group.
-
- python ./ansible/contrib/inventory/azure_rm.py --list | jq
-
- Now we test the reachability using ansible function called "ping"
+ Now, we test the reachability using ansible function called "ping"
 
  python ./ansible/contrib/inventory/azure_rm.py --list | jq
 

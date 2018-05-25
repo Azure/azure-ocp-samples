@@ -41,7 +41,7 @@ Note: The above command creates a VM with user account 'azureuser' and generates
 
 1. Login to the VM and Install Ansible
 
-ssh azureuser@<publicIpAddress>
+ssh azureuser@< public ip address>
 
 sudo apt-get update && sudo apt-get install -y libssl-dev libffi-dev python-dev python-pip
 

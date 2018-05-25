@@ -10,7 +10,7 @@
     become: true
   - name: Download web page index.html
     get_url:
-      url: <raw git hub url>/index.html
+      url: https://raw.githubusercontent.com/Azure/azure-ocp-samples/master/PPE/OSS/ansible/index.html
       dest: /var/www/html/index.html
       mode: 0644
   - name: Ensure apache is running (and enable it at boot)

@@ -120,6 +120,24 @@ The command below "uname -a" returns some information about the machine where it
 
  ansible -i ~/ansible/contrib/inventory/azure_rm.py all -m shell -a "/bin/uname -a"
 
+ Use the inventory script below to print instance specific information
+
+ ./ansible/contrib/inventory/azure_rm.py --host my_instance_host_name --resource-groups=Testing --pretty
+
+ You can also run a playbook using the inventory script. 
+
+Save the following playbook script to a file named "AzureInventory.yml"
+
+ - name: Test the inventory script
+  hosts: azure
+  connection: local
+  gather_facts: no
+  tasks:
+    - debug: msg="{{ inventory_hostname }} has powerstate {{ powerstate }}"
+
+Execute the playbook using the following command
+
+ansible-playbook -i ./ansible/contrib/inventory/azure_rm.py AzureInventory.yml
 
 ## Configuring a Web Application using Ansible 
 

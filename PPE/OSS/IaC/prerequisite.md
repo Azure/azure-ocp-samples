@@ -69,4 +69,4 @@ The Azure CLI 2.0 is a command-line tool providing a great experience for managi
 - [Run in Docker container](https://docs.microsoft.com/en-us/cli/azure/run-azure-cli-docker?view=azure-cli-latest)
 
 ### MobaXterm
-Download [MobaXterm](https://mobaxterm.mobatek.net/download.html) 
+* For Windows: Download [MobaXterm](https://mobaxterm.mobatek.net/download.html) 

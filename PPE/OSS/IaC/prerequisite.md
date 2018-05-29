@@ -67,3 +67,6 @@ The Azure CLI 2.0 is a command-line tool providing a great experience for managi
   - [Install with yum on RHEL, Fedora, or CentOS](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-yum?view=azure-cli-latest)
   - [Install from script](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?view=azure-cli-latest)
 - [Run in Docker container](https://docs.microsoft.com/en-us/cli/azure/run-azure-cli-docker?view=azure-cli-latest)
+
+### MobaXterm
+Download [MobaXterm](https://mobaxterm.mobatek.net/download.html) 

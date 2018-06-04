@@ -1,9 +1,9 @@
 # Prerequisite for Hackathon
 
 This section lays out all the tools that are required for this hackathon.
-* [**Azure Subscription**]()
-* [* **Terminal**]()
-* **Azure CLI**
+* [**Azure Subscription**](#azure-sign-up)
+* [* **Terminal**](#note-for-windows-users)
+* [**Azure CLI**](#managing-cloud-resources)
 * [**VS Code**](https://code.visualstudio.com/)
 
 ## Azure Sign Up
@@ -24,8 +24,10 @@ If you have used Azure before, we will still try to limit cost of services by su
 ## Note for Windows Users
 
 While majority of the documentation should work fine locally on Windows, I would recommend using [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) for interacting with the Azure CLI.
-
 Alternatively, you can use the [Azure Cloud Shell](https://shell.azure.com/bash). This is discussed shortly in the next section.
+
+### MobaXterm
+* For Windows: Download [MobaXterm](https://mobaxterm.mobatek.net/download.html) 
 
 ## Managing Cloud Resources
 
@@ -68,5 +70,3 @@ The Azure CLI 2.0 is a command-line tool providing a great experience for managi
   - [Install from script](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?view=azure-cli-latest)
 - [Run in Docker container](https://docs.microsoft.com/en-us/cli/azure/run-azure-cli-docker?view=azure-cli-latest)
 
-### MobaXterm
-* For Windows: Download [MobaXterm](https://mobaxterm.mobatek.net/download.html) 

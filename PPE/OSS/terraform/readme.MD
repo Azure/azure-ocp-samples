@@ -9,8 +9,6 @@ Terraform is a tool (templating language) for building, changing, and versioning
 
 Installation instructions can be found at the following URLs
 
-https://www.terraform.io/intro/getting-started/install.html
-
 https://docs.microsoft.com/en-us/azure/virtual-machines/linux/terraform-install-configure
 
 

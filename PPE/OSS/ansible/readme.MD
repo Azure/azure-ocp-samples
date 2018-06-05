@@ -99,6 +99,17 @@ ansible-playbook LinuxVMCreate.yml
 
  Dynamic inventories help discover the machines that fulfill certain requirements such as existing in Azure, or belonging to a certain resource group, and makes Ansible execute operations on them.
 
+
+ (Note: Get the script from the following location
+ 
+ wget https://raw.githubusercontent.com/ansible/ansible/devel/contrib/inventory/azure_rm.py
+
+ provide execution permission to this script
+
+ chmod +x azure_rm.py
+ 
+ )
+
  First, we will test that the dynamic inventory script is running, executing it with the parameter “--list”. This should show JSON text containing information about all the VMs in your resource group.
 
 ```

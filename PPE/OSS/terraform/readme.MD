@@ -7,7 +7,7 @@ Terraform is a tool (templating language) for building, changing, and versioning
 
 ### Install Terraform and configure it to access Azure
 
-Installation instructions can be found at the following URLs
+Installation instructions can be found at the following URL
 
 https://docs.microsoft.com/en-us/azure/virtual-machines/linux/terraform-install-configure
 

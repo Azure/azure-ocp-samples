@@ -20,7 +20,7 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-ssh-keys-de
 
 ## Create Service Principal
 
-`az ad sp create-for-rbac`
+az ad sp create-for-rbac --query '{"client_id": appId, "secret": password, "tenant": tenant}'
 
 ### Install Packer
 

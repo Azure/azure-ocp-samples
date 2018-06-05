@@ -65,6 +65,18 @@ To clean up the environment created, use the following command
 `terraform destroy`
 
 
+## References
+
+### Terraform Azure RM Provider
+
+https://www.terraform.io/docs/providers/azurerm/
+
+
+### Terraform on Azure Documentation
+
+https://docs.microsoft.com/en-us/azure/terraform/
+
+
 
 
 

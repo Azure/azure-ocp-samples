@@ -99,6 +99,21 @@ ansible-playbook LinuxVMCreate.yml
 
  Dynamic inventories help discover the machines that fulfill certain requirements such as existing in Azure, or belonging to a certain resource group, and makes Ansible execute operations on them.
 
+
+Clone the Ansible repository. The azure_rm.py script is located in this repository
+
+```
+    git clone git://github.com/ansible/ansible.git --recursive
+
+```
+ 
+ Install jq ('jq' is a command-line JSON interpreter, that you can use here to make the JSON output readable)
+
+```
+    sudo apt-get install jq
+
+```
+
  First, we will test that the dynamic inventory script is running, executing it with the parameter “--list”. This should show JSON text containing information about all the VMs in your resource group.
 
 ```
@@ -108,7 +123,7 @@ ansible-playbook LinuxVMCreate.yml
  Now, we test the reachability using ansible function called "ping"
 
 ```
- python ./ansible/contrib/inventory/azure_rm.py --list | jq
+ ansible -i ./ansible/contrib/inventory/azure_rm.py all -m ping
 
 ```
 Note: The first time you run the command you will have to acknowledge the host's authenticity, after that it should run automatically

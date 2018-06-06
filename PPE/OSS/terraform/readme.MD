@@ -9,7 +9,8 @@ Terraform is a tool (templating language) for building, changing, and versioning
 
 Installation instructions can be found at the following URL
 
-https://www.terraform.io/intro/getting-started/install.html
+https://docs.microsoft.com/en-us/azure/virtual-machines/linux/terraform-install-configure
+
 
 ### Create SSH Key
 
@@ -19,7 +20,7 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-ssh-keys-de
 
 ## Create Service Principal
 
-`az ad sp create-for-rbac`
+az ad sp create-for-rbac --query '{"client_id": appId, "secret": password, "tenant": tenant}'
 
 ### Install Packer
 
@@ -63,6 +64,18 @@ if the validation is successful, apply the template
 To clean up the environment created, use the following command
 
 `terraform destroy`
+
+
+## References
+
+### Terraform Azure RM Provider
+
+https://www.terraform.io/docs/providers/azurerm/
+
+
+### Terraform on Azure Documentation
+
+https://docs.microsoft.com/en-us/azure/terraform/
 
 
 

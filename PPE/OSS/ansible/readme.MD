@@ -102,8 +102,10 @@ ansible-playbook LinuxVMCreate.yml
 
 Clone the Ansible repository. The azure_rm.py script is located in this repository
 
+```
 git clone git://github.com/ansible/ansible.git --recursive
 
+```
 
  First, we will test that the dynamic inventory script is running, executing it with the parameter “--list”. This should show JSON text containing information about all the VMs in your resource group.
 

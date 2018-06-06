@@ -103,7 +103,7 @@ ansible-playbook LinuxVMCreate.yml
 Clone the Ansible repository. The azure_rm.py script is located in this repository
 
 ```
-git clone git://github.com/ansible/ansible.git --recursive
+    git clone git://github.com/ansible/ansible.git --recursive
 
 ```
 

@@ -106,6 +106,13 @@ Clone the Ansible repository. The azure_rm.py script is located in this reposito
     git clone git://github.com/ansible/ansible.git --recursive
 
 ```
+ 
+ Install jq ('jq' is a command-line JSON interpreter, that you can use here to make the JSON output readable)
+
+```
+    sudo apt-get install jq
+
+```
 
  First, we will test that the dynamic inventory script is running, executing it with the parameter “--list”. This should show JSON text containing information about all the VMs in your resource group.
 

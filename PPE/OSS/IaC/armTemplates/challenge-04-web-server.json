@@ -75,7 +75,7 @@
       "nicName": "WebVMNic",
       "publicIPAddressName": "P20PublicIP",
       "publicIPAddressType": "Dynamic",
-      "dnsNameForPublicIP": "[concat(parameters('resourcePrefix'), uniquestring(resourceGroup().id), '-pip')]",
+      "dnsNameForPublicIP": "[concat(parameters('resourcePrefix'), uniquestring(resourceGroup().id), 'pip')]",
       "subnetRef": "[concat(resourceId('Microsoft.Network/virtualNetworks',parameters('vnetName')),'/subnets/',parameters('subnetName'))]",
       "vmSize": "Standard_A0",
       "imagePublisher": "Canonical",

@@ -78,7 +78,7 @@
         "publicIPAddressType": "Dynamic",
         "dnsNameForPublicIP": "[concat(parameters('resourcePrefix'), uniquestring(resourceGroup().id), '-pip')]",
         "subnetRef": "[concat(resourceId('Microsoft.Network/virtualNetworks',variables('vnetName')),'/subnets/',parameters('subnetName'))]",
-        "vmSize": "Standard_A0",
+        "vmSize": "Standard_DS2_v2",
         "imagePublisher": "MicrosoftWindowsServer",
         "imageOffer": "WindowsServer"
     },

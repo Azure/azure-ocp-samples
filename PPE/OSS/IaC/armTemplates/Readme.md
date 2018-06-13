@@ -13,7 +13,7 @@ Day 1-2 Challenges:
 +	Challenge 3 - Extend ARM template to opening ports 80 and 22 and apply to the default subnet
     +   Key Takeaways - Variables, dependencies and idempotency
 
-Note: If you want to skip to using PowerShell DSC for configuration management of a Windows VM, divert to Challenge 4 in the "dscChallenge" folder.
+Note: If you want to skip to using PowerShell DSC for configuration management of a Windows VM, divert to Challenge 4 in the "dscChallenges" folder.
 
 +	Challenge 4 - Extend ARM Template to deploy a webserver VM
     +   VM requirements -

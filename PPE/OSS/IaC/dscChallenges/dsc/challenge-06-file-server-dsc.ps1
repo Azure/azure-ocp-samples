@@ -1,6 +1,6 @@
 Configuration Create-File-Shares {
 
-    Import-DscResource -ModuleName xSmbShare
+    Import-DscResource -Name MSFT_xSmbShare
 
     Node localhost {
 

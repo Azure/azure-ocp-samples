@@ -18,3 +18,7 @@ The following challenges are to help you get familiar with the Jenkins environme
    * Create a Resource Group
    * Create a template
    * Delete a template
+3. Use plug-in to run azure-cli command (az login)
+4. Create a jenkins server from marketplace
+5. Scale out Jenkins to send builds to slave servers
+6. Scale out Jenkins to send builds to ACI 

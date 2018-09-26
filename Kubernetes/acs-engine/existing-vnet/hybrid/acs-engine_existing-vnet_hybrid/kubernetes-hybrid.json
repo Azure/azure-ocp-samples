@@ -41,21 +41,21 @@
     ],
     "windowsProfile": {
       "adminUsername": "thfalgou",
-      "adminPassword": "N#xtH#alth@123"
+      "adminPassword": ""
     },
     "linuxProfile": {
       "adminUsername": "thfalgou",
       "ssh": {
         "publicKeys": [
           {
-            "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDjBBKNpQXXdpZn1WQKnoaL/HrWwjgginarHJfdunIrg6mk5A2t5S2I9hDPSEJ5pHdU7nc8vzixEgot4G6PiYrPglenXFl65xr6jhDdIuPSUYmWCwqMjX8XYl9nd9TUmFk0TmrLQrt9fcWOdhpmLpuPqQjiwFDkPBw10oz7foudLXdqkIS/7OtH8bG3rqsQhGgGfumY2CfA1mEPyXWBex9n0FTyoU+kU7CcZEk9H/leA1yRWASDf95ZsQ50kueAgV5puSWD80abwzFZgHRtoSWZ91tunELjaU6ZxAw1po6km74sZRkcPjbgWvg+CXmJv181ZZv7F4B8ynyvqBYO8wKgkvM/LD84LsAUjhdiwxWSbsR1sPjvWETUbzbDBdPG4wp/6auGfpuMJafser7XDCX5ider8Zive7nPJ/ZDcL/UjG9MmTSLdKV6A9B5+vLTOj0AV8MXlprI/HfYmoSsM0K6bPyUdUHcFhCx6ycLTwDS/sM0KpYEAFkIdOWngERbk30xOfemlJYa9Y0fsvsU7nlu943syeyiDTNwFbGB/rO2bcukv6ixk0tlOvc3uFP4bL/S3vLXhmWM9NuLHj4RrknxlZPr5D66Porvg3MD3bRSS5F/PEm8zBXn59TKUdCvKxHXrS/67TGF5PW29m7LBjZP8Ez66CHb4dl+ye9mzpMqkQ== tommy@lastcoolnameleft.com"
+            "keyData": ""
           }
         ]
       }
     },
     "servicePrincipalProfile": {
-      "clientId": "a547a162-87e6-4093-98b3-dc1e6d475b09",
-      "secret": "5bec545e-ffbd-408c-adb9-ae62d74b701f"
+      "clientId": "",
+      "secret": ""
     }
   }
 }

@@ -16,7 +16,7 @@ Configuration Create-Folders {
         }
 
         File CreateFolder3 {
-            DestinationPath = 'D:\Folder3'
+            DestinationPath = 'C:\Folder3'
             Type = 'Directory'
             Ensure = 'Present'
         }

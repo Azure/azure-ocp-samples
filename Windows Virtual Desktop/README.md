@@ -71,6 +71,14 @@
 
 [Configure Cloud Cache to redirect profile containers or office container to multiple Providers](https://docs.microsoft.com/en-us/fslogix/configure-cloud-cache-tutorial)
 
+#### Teams on WVD
+
+[Use Microsoft Teams on Windows Virtual desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/teams-on-wvd)
+
+Set-RdsHostPool -TenantName <tenantname> -Name <hostpoolname> -CustomRdpProperty "audiomode:i:0;audiocapturemode:i:1;camerastoredirect:s:*;devicestore
+
+
+
 ### Migration and Important Annoucement links
 
 [Accelerate your RDS and VDI migration to Windows Virtual Desktop](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/accelerate-your-rds-and-vdi-migration-to-windows-virtual-desktop/ba-p/1079005)
@@ -149,6 +157,7 @@ Ignite [Windows Virtual Desktop overview](https://myignite.techcommunity.microso
 ### Nasuni
 
 
+### IGEL
 
 
 The MIT License (MIT) Copyright © 2020

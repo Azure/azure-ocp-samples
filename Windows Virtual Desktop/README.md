@@ -1,4 +1,4 @@
-# Welcome to the US Partner Windows virtual Desktop Resource Repo
+# Welcome to the US Partner Windows Virtual Desktop Resource Repo
 
 ## Table of Content in Repo
 

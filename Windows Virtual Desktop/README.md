@@ -71,6 +71,8 @@
 
 [Configure Cloud Cache to redirect profile containers or office container to multiple Providers](https://docs.microsoft.com/en-us/fslogix/configure-cloud-cache-tutorial)
 
+[Storage options for FSlogix Prolfiles](https://docs.microsoft.com/en-us/azure/virtual-desktop/store-fslogix-profile)
+
 #### Teams on WVD
 
 [Use Microsoft Teams on Windows Virtual desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/teams-on-wvd)

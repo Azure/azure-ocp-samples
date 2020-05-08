@@ -65,7 +65,9 @@
 
 [Differences in Remote client capabilities, Compare RDS Client Apps](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-app-compare)
 
-#### Scaling Automation and User Security Group Syncronization
+#### Administration, Scaling Automation and User Security Group Syncronization
+
+[WVD Admin - A native administration Gui for Windows Virtual Desktop (WVDAdmin)](https://blog.itprocloud.de/Windows-Virtual-Desktop-Admin/)
 
 [Scale session hosts using Azure Automation](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script)
 

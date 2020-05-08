@@ -23,6 +23,8 @@
 
 [US OCP Windows Virtual Desktop Tech Intensity Virtual Series Recordings](https://msuspartners.eventbuilder.com/TechIntensityWorkshop)
 
+[US OCP Windows Virtual Desktop Labs](https://aka.ms/wvdlabs)
+
 [Windows Virtual Desktop Learning Plan from MS Learn](https://docs.microsoft.com/en-us/learn/paths/m365-wvd/)
 
 [Azure Academy Virtual Desktop Series](https://www.youtube.com/watch?v=qtx3rippZJQ&list=PL-V4YVm6AmwXGvQ46W8mHkpvm6S5IIitK)
@@ -33,11 +35,15 @@
 
 [Windows Virtual Desktop Experience Estimator tool](https://azure.microsoft.com/services/virtual-desktop/assessment/)
 
+[Getting started: Windows Virtual Desktop ARM-based Azure portal](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/getting-started-windows-virtual-desktop-arm-based-azure-portal/ba-p/1374466)
+
 [Monitoring Windows Virtual Desktop environments (Fall 2019 release) with Azure Sentinel](https://techcommunity.microsoft.com/t5/azure-sentinel/monitoring-windows-virtual-desktop-environments-fall-2019/ba-p/1356632)
 
 [Onboarding and servicing non-persistent VDI machines with Microsoft Defender ATP](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/onboarding-and-servicing-non-persistent-vdi-machines-with/ba-p/1360721)
 
 [Visually presenting Windows Virtual monitoring information in Power BI](https://xenithit.blogspot.com/2020/05/visually-presenting-windows-virtual.html)
+
+
 
 ### Customer Stories
 

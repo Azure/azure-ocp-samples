@@ -21,11 +21,11 @@
 
 [Windows Virtual Desktop Sales and Busines Value Fundamentals Video Series](https://partner.microsoft.com/en-us/asset/collection/windows-virtual-desktop-sales-and-business-value-fundamentals#/)
 
+[Windows Virtual Desktop Learning Plan from MS Learn](https://docs.microsoft.com/en-us/learn/paths/m365-wvd/)
+
 [US OCP Windows Virtual Desktop Tech Intensity Virtual Series Recordings](https://msuspartners.eventbuilder.com/TechIntensityWorkshop)
 
 [US OCP Windows Virtual Desktop Labs](https://aka.ms/wvdlabs)
-
-[Windows Virtual Desktop Learning Plan from MS Learn](https://docs.microsoft.com/en-us/learn/paths/m365-wvd/)
 
 [Azure Academy Virtual Desktop Series](https://www.youtube.com/watch?v=qtx3rippZJQ&list=PL-V4YVm6AmwXGvQ46W8mHkpvm6S5IIitK)
 

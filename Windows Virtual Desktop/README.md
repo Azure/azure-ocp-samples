@@ -2,15 +2,15 @@
 
 ## Table of Content in Repo
 
-[**BOM**](/BOM) - Resources to help with building a WVD Native Solution Statement of Work includeing comments on Cloud adoption Framework alignment.
+[**BOM**](/Windows%20Virtual%20Desktop/BOM) - Resources to help with building a WVD Native Solution Statement of Work includeing comments on Cloud adoption Framework alignment.
 
-[**Presentations**](/Presentations) - Powerpints to help with customer conversations and support customer technical team onboarding for management.
+[**Presentations**](/Windows%20Virtual%20Desktop/Presentations) - Powerpints to help with customer conversations and support customer technical team onboarding for management.
 
-[**Pricing**](/Pricing) - Pricing Configurator excel for WVD Pricing Scenarios for customer conversations.
+[**Pricing**](/Windows%20Virtual%20Desktop/Pricing) - Pricing Configurator excel for WVD Pricing Scenarios for customer conversations.
 
-[**Reference Archtectures**](/Reference%20Archtectures) - Example WVD Archtecture in Azure Virtual Data center.
+[**Reference Archtectures**](/Windows%20Virtual%20Desktop/Reference%20Archtectures) - Example WVD Archtecture in Azure Virtual Data center.
 
-[**Scenario Deployment Guides**](/Scenario%20Deployment%20Guides) - 9 Windows Virtual Desktop Scenario deployment guides.
+[**Scenario Deployment Guides**](/Windows%20Virtual%20Desktop/Scenario%20Deployment%20Guides) - 9 Windows Virtual Desktop Scenario deployment guides.
 
 ## Important Links for Partners
 
